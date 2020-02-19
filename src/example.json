@@ -1,0 +1,13 @@
+album = {
+    id,
+    title,
+    description,
+    albumIcon,
+    photo: [
+        {
+            id,
+            iconUrl,
+            photoUrl,
+        }
+    ]
+}

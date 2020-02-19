@@ -1,0 +1,44 @@
+.body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+
+  .container {
+    background-color: blanchedalmond;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: stretch;
+    margin: 20px 40px;
+    border: 1px solid blue;
+
+    .titleContainer {
+      height: auto;
+      background-color: white;
+      margin: 10px;
+      border: 1px solid blue;
+    }
+
+    .sectionContainer {
+      display: flex;
+      flex: 1;
+      flex-direction: row;
+      align-items: stretch;
+
+      .detailCol {
+        width: 250px;
+        margin: 10px;
+        border: 1px solid blue;
+      }
+
+      .photoCol {
+        flex: 3;
+        margin: 10px;
+        border: 1px solid blue;
+      }
+    }
+  }
+}
